@@ -1,13 +1,13 @@
 const express = require('express');
-const dotenv = require('dotenv');
+// const dotenv = require('dotenv');
 // const moment = require('moment')
 const cron = require('node-cron')
 const { cache, check } = require('./emails/cache')
 const emailRouter = require('./router/emailRoutes')
 
-const account = require('./emails/account')
+// const account = require('./emails/account')
 
-dotenv.config();
+// dotenv.config();
 
 const app = express();
 
